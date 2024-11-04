@@ -77,7 +77,7 @@ Follow these instructions to set up and run the Trade Simulation application on 
 - **assets/**: Contains static assets like `data.json` for simulation data.
 - **pubspec.yaml**: Flutter configuration file managing dependencies and assets.
 
-## deployment
+## Deployment
 After modifying the code and adding new features, you can deploy using the following command:
   ```bash
   firebase deploy
