@@ -1,0 +1,35 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "comstocksimgameiu",
+          "appId": "1:891263935873:android:bb28452a6e8564fbe93480",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "comstocksimgameiu",
+          "configurations": {
+            "android": "1:891263935873:android:bb28452a6e8564fbe93480",
+            "ios": "1:891263935873:ios:c899401b46ea58f9e93480",
+            "web": "1:891263935873:web:363d290b31ce969ee93480",
+            "windows": "1:891263935873:web:7b37215050a67e4be93480"
+          }
+        }
+      }
+    }
+  }
+}
