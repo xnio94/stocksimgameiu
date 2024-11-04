@@ -54,7 +54,7 @@ Follow these instructions to set up and run the Trade Simulation application on 
 
 1. **unzip the codebase folder and open it**
    ```bash
-   git clone https://github.com/xnio94/stocksimgameiu/tree/main
+   git clone https://github.com/xnio94/stocksimgameiu/
    cd tradesimulation
    ```
 2. **Get Dependencies:**
