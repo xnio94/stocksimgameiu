@@ -80,6 +80,7 @@ Follow these instructions to set up and run the Trade Simulation application on 
 ## Deployment
 After modifying the code and adding new features, you can deploy using the following command:
   ```bash
+  flutter build web
   firebase deploy
   ```
 
