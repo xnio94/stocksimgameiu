@@ -23,11 +23,15 @@ Follow these instructions to set up and run the Trade Simulation application on 
 ### Installing FlutterFire CLI (optional)
 
 1. **Install Dart:** Ensure Dart is installed, as FlutterFire CLI relies on it. You can install Dart from the [official website](https://dart.dev/get-dart).
-2. **Install FlutterFire CLI via Pub:**
+2. **Install Firebase CLI via npm:**
+   ```bash
+   npm install -g firebase-tools
+   ```
+3. **Install FlutterFire CLI via Pub:**
    ```bash
    dart pub global activate flutterfire_cli
    ```
-3. **Ensure the FlutterFire CLI is in your PATH:**
+4. **Ensure the FlutterFire CLI is in your PATH:**
    - Add the following line to your shell's startup script (e.g., `.bashrc`, `.zshrc`):
      ```bash
      export PATH="$PATH":"$HOME/.pub-cache/bin"
